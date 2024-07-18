@@ -30,7 +30,7 @@
 ### To run with web interface
 
 ##### Starting the frontend interface
-- cd `notification_interface`
+- `cd notification_interface`
 - Install necessary packages using `npm install`
 - Start the frontend server using `npm start`
 
@@ -41,7 +41,7 @@
 ### To run with CLI
 
 ##### Starting the server
-- cd `NotificationService`
+- `cd NotificationService`
 - `go run cmd/main/*.go -mode=cli`
 - Select 1 to continue entering the notification message
     - Enter the message (in one line)
